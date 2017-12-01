@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Números primos</title>
+        <script src="primos.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <h3>Cálculo de números primos</h3>
+        <table class="table table-hover">
+        <script>
+            var numero = prompt("Introduce un número mayor o igual que 1");
+            //Llamar a la función
+            for(var i=2; i<=numero; i++) {
+            if (esprimo(numero)) {
+            document.write(numero+" es primo");
+            } else {
+            document.write(numero+" no es primo");
+            }
+            }
+
+        </script>
+        </table>
+    </body>
+</html>
