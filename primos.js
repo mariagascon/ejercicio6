@@ -8,7 +8,7 @@ function esprimo(numero) {
             esprimo = false;
         }
         i++ 
-        
+
     }
     return esprimo;
     }
